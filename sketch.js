@@ -3,7 +3,7 @@ function setup() {
 }
 
 function draw() {
-  fill(6,5,1);
+  fill(6,0,1);
   ellipse(mouseX , mouseY , 110 , 110); 
   triangle(mouseX, mouseY, 110, 110);
 }
