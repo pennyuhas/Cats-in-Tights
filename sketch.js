@@ -1,7 +1,7 @@
 function setup() {
-  createCanvas(2000 , 2000)
+  createCanvas(windowWidth , windowHeight)
 }
 
 function draw() {
-  ellipse(mouseX , mouseY , 110 , 110);
+  ellipse(mouseX , mouseY , 110 , 110); fill(75 r, 45 b)
 }
