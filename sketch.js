@@ -5,8 +5,8 @@ function setup() {
 
 function draw() { 
   triangle(mouseX, mouseY, 110, 110);
-  stroke(100,5,0);
+  stroke(100,90,0);
   ellipse(100,100,150,150);
-  fill(0,100,20,0);
+  fill(100,100,0);
 
 }
