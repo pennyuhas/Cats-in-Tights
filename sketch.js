@@ -4,6 +4,6 @@ function setup() {
 
 function draw() { 
   triangle(mouseX, mouseY, 110, 110);
-  stroke(0,90,100);
+  stroke(0,0,0);
   background(0,12,225);
 }
