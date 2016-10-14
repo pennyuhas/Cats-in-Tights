@@ -8,4 +8,5 @@ function draw() {
   stroke(100,40,0);
   ellipse(100,100,150,150)
   fill(100,60,0)
+  square(15,20,5,2);
 }
