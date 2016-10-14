@@ -1,11 +1,11 @@
 function setup() {
   createCanvas(windowWidth , windowHeight)
-  background(255,100,100)
+  background(90,40,100)
 }
 
 function draw() { 
   triangle(mouseX, mouseY, 110, 110);
-  stroke(100,90,0);
-  ellipse(100,100,100,100)
-  fill(100,100,0)
+  stroke(100,40,0);
+  ellipse(100,100,150,150)
+  fill(100,60,0)
 }
