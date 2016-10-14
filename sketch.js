@@ -9,6 +9,8 @@ function draw() {
   fill(255,255,0);
   ellipse(100,100,150,150);
   fill(255,255,255);
+  ellipse.MouseUp += ellipse_MouseUp;
   stroke(255,255,255);
   ellipse(90,50,100,125);
+  
 }
