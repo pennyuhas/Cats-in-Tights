@@ -4,5 +4,5 @@ function setup() {
 
 function draw() { 
   triangle(mouseX, mouseY, 110, 110);
-  stroke(12,10,60,255);
+  stroke(0,20,225);
 }
