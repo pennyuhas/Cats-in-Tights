@@ -10,9 +10,10 @@ function mousePressed(){
 
 
 function draw() { 
+  stroke(255,153,52)
   fill(255,255,0);
   ellipse(150,150,150,150);
-  stroke(255,255,255);
+  triangle(mouseX,mouseY,110,110);
   
 }
 
