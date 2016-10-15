@@ -1,9 +1,10 @@
 function setup() {
   createCanvas(windowWidth , windowHeight)
-  background(5,4,100)
+  background(10,11,100)
 }
 
 function mousePressed(){
+  stroke(255,255,255)
   fill(255,255,255)
   ellipse(mouseX,mouseY,50,50);
 }
